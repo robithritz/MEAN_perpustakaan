@@ -22,7 +22,7 @@ var bookSchema = mongoose.Schema({
 });
 
 var Genry = module.exports = mongoose.model('genres', genreSchema);
-var Booky = module.exports = mongoose.model('books', bookSchema);
+var Booky = module.exports = mongoose.model('booky', bookSchema);
 
 module.exports.getGenres = function(callback, limit){
 	Genry.find(callback);
