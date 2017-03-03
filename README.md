@@ -1,0 +1,1 @@
+ini aplikasi percobaan MEAN
